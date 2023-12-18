@@ -1,0 +1,282 @@
+repo_name: BenHerbst/kotlin-netbeans
+report_id: 3658b6e099af9a03078f2ae12d7b41ee
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-18T21:48:48+00:00'
+requested_by: mglukhikh
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '14.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: baratynskiy
+  last_updated_on: 2017-01-31 08:44:59.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: license.txt
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-09-15 09:02:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Baratynskiy
+  last_updated_on: 2015-09-21 20:08:51.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: license.txt
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-09-15 09:02:47.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '14.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: baratynskiy
+  last_updated_on: 2017-01-31 08:44:59.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.opera:operadriver
+  description: OperaDriver is a vendor-supported WebDriver implementation developed
+    by Opera Software and volunteers that implements WebDriver's wire protocol
+  version: '1.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: baratynskiy
+  last_updated_on: 2017-01-31 08:44:59.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Baratynskiy
+  last_updated_on: 2016-09-25 10:24:21.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: dom4j:dom4j
+  description: Flexible XML framework for Java
+  version: 1.6.1
+  license: Plexus
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-07-18 10:32:00.000000000 Z
+  vulnerabilities:
+  - name: dom4j allows External Entities by default which might enable XXE attacks
+    cve_id: CVE-2020-10683
+    cve_url: https://github.com/advisories/GHSA-hwj3-m3p6-hj38
+    detected_date: Jan 28
+    severity: critical
+    first_patched: 
+  - name: Dom4j contains a XML Injection vulnerability
+    cve_id: CVE-2018-1000632
+    cve_url: https://github.com/advisories/GHSA-6pcc-3rfx-4gpm
+    detected_date: Jan 28
+    severity: high
+    first_patched: 
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-07-18 10:32:00.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.jetbrains.kotlin:kotlin-compiler
+  description: Kotlin Compiler
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Mikhail Glukhikh
+  last_updated_on: 2019-04-01 09:30:19.000000000 Z
+- name: org.seleniumhq.selenium:selenium-java
+  description: Selenium automates browsers
+  version: 2.44.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: baratynskiy
+  last_updated_on: 2017-03-10 15:10:26.000000000 Z
+- name: xalan:serializer
+  description: Serializer to write out XML, HTML etc
+  version: 2.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-07-18 10:32:00.000000000 Z
+- name: xalan:xalan
+  description: Xalan-Java is an XSLT processor for transforming XML documents into
+    HTML, text, or other XML document types
+  version: 2.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Alexander Baratynskiy
+  last_updated_on: 2016-07-18 10:32:00.000000000 Z
+  vulnerabilities:
+  - name: Apache Xalan Java XSLT library integer truncation issue when processing
+      malicious XSLT stylesheets
+    cve_id: CVE-2022-34169
+    cve_url: https://github.com/advisories/GHSA-9339-86wc-4qgf
+    detected_date: Jul 22
+    severity: high
+    first_patched: 2.7.3
+  - name: Improper Authorization in Apache Xalan-Java
+    cve_id: CVE-2014-0107
+    cve_url: https://github.com/advisories/GHSA-rc2w-r4jq-7pfx
+    detected_date: Jul 8
+    severity: high
+    first_patched: 2.7.2
+- name: xml-apis:xml-apis
+  description: Xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces
+    for use in other xml-based projects
+  version: 1.4.01
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Baratynskiy
+  last_updated_on: 2016-09-25 10:24:21.000000000 Z
