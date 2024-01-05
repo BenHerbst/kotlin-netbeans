@@ -2,7 +2,7 @@ repo_name: BenHerbst/kotlin-netbeans
 report_id: 3658b6e099af9a03078f2ae12d7b41ee
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-18T21:48:48+00:00'
+timestamp: '2024-01-05T08:20:52+00:00'
 requested_by: mglukhikh
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans
   detection_source: Repo Metadata
 - name: guava
   description: Google Core Libraries for Java 6+
@@ -49,6 +51,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/license.txt
   detection_source: license.txt
   last_updated_by: Alexander Baratynskiy
   last_updated_on: 2016-09-15 09:02:47.000000000 Z
@@ -60,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans
   detection_source: Repo Metadata
 - name: JUnit
   description: A programmer-oriented testing framework for Java
@@ -83,6 +87,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/BenHerbst/kotlin-netbeans/blob/master/license.txt
   detection_source: license.txt
   last_updated_by: Alexander Baratynskiy
   last_updated_on: 2016-09-15 09:02:47.000000000 Z
